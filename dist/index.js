@@ -21,7 +21,7 @@ module.exports = router;
 /***/ }),
 
 /***/ 3964:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __nccwpck_require__) => {
+/***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const connObject = __nccwpck_require__(3512);
 const getSql = "SELECT * from holiday_todo";
@@ -71,6 +71,8 @@ const taskService = {
             })
     },
 };
+
+module.exports = taskService;
 
 /***/ }),
 
