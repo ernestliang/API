@@ -6,7 +6,7 @@
 
 const express = __nccwpck_require__(1918);
 const taskService = __nccwpck_require__(3964);
-const router = express.router();
+const router = express.Router();
 
 // This is to route to API URLs
 router.route('/tasks')
